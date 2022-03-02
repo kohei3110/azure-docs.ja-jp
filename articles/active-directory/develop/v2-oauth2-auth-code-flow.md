@@ -1,5 +1,5 @@
 ---
-title: Microsoft ID プラットフォームと OAuth 2.0 認証コード フロー | Azure
+title: Microsoft ID プラットフォームと OAuth 2.0 認可コード フロー | Azure
 titleSuffix: Microsoft identity platform
 description: Microsoft ID プラットフォームによる OAuth 2.0 認証プロトコルの実装を使用して、Web アプリケーションを構築します。
 services: active-directory
@@ -20,9 +20,9 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 11/02/2021
 ms.locfileid: "131050263"
 ---
-# <a name="microsoft-identity-platform-and-oauth-20-authorization-code-flow"></a>Microsoft ID プラットフォームと OAuth 2.0 認証コード フロー
+# <a name="microsoft-identity-platform-and-oauth-20-authorization-code-flow"></a>Microsoft ID プラットフォームと OAuth 2.0 認可コード フロー
 
-デバイスにインストールされているアプリに、Web API など、保護されているリソースにアクセスする権利を与えるために OAuth 2.0 認証コード付与を利用できます。 Microsoft ID プラットフォームによる OAuth 2.0 と Open ID Connect (OIDC) の実装を使用すると、サインインおよび API アクセスをモバイル アプリやデスクトップ アプリに追加できます。
+デバイスにインストールされているアプリに、Web API など、保護されているリソースにアクセスする権利を与えるために OAuth 2.0 認可コード付与を利用できます。 Microsoft ID プラットフォームによる OAuth 2.0 と Open ID Connect (OIDC) の実装を使用すると、サインインおよび API アクセスをモバイル アプリやデスクトップ アプリに追加できます。
 
 この記事では、任意の言語を使用して、アプリケーションでプロトコルに対して直接プログラミングする方法について説明します。  可能な場合は、[トークンを取得してセキュリティで保護された Web API を呼び出す](authentication-flows-app-scenarios.md#scenarios-and-supported-authentication-flows)代わりに、サポートされている Microsoft 認証ライブラリ (MSAL) を使用することをお勧めします。  また、[MSAL を使用するサンプル アプリ](sample-v2-code.md)も参照してください。
 
